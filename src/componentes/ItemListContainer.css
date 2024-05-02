@@ -1,0 +1,14 @@
+.item-list-container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0;
+    margin:20px;
+    border-radius: 10px;
+
+}
+
+.item-list-container p {
+    font-size: 30px;
+}

@@ -1,0 +1,23 @@
+.anchorStyle {
+   
+        width: '100px';
+        display: 'inline-block';
+        color: rgb(255, 123, 149);
+        height: 30px;
+        font-size: 30px;
+        margin: 10px;
+
+}
+
+.anchorStyle:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+div {
+    background-color: aliceblue;
+    color: brown;
+    margin:none;
+}
+h1{
+    margin:0;
+}
