@@ -1,5 +1,7 @@
-
+import './ComponenteNavbar.css';
+import './ComponenteAnchor'
 import React from "react"
+import ComponenteAnchor from './ComponenteAnchor';
 
 export default function Generos ({mostrarGeneros}) {
     return (<>
@@ -7,16 +9,16 @@ export default function Generos ({mostrarGeneros}) {
         {mostrarGeneros && 
         <ul className='lista-generos'>
             <li>
-                <a href=""> Rock </a>
+                <ComponenteAnchor nombre='Rock' />
             </li>
             <li>
-                <a href=""> Pop </a>
+            <ComponenteAnchor nombre='Pop' />
             </li>
             <li> 
-                <a href=""> Salsa </a>
+            <ComponenteAnchor nombre='Salsa' />
             </li>
             <li>
-                <a href=""> Clásica </a>
+            <ComponenteAnchor nombre='Clásica' />
             </li>
     </ul>}
     

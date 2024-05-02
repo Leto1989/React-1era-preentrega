@@ -12,12 +12,19 @@
 
 .navbar ul {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    top: 100%;
 }
 .navbar ul li {
     display: inline;
+    position: relative;
 }
 
 .lista-generos {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
     top: 100%;
     left: 0;
     background-color: #fff;
@@ -25,4 +32,16 @@
     border: 1px solid #ccc;
 }
 
+h1 {
+    font-family: 'Ubuntu Sans';
+}
+
+a {
+    font-family: 'Montserrat';
+}
+
+.icono-carrito:hover {
+    background-color: beige;
+    cursor: pointer;
+}
 

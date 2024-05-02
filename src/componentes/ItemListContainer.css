@@ -2,13 +2,18 @@
     width: 600px;
     height: 600px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #f0f0f0;
     margin:20px;
     border-radius: 10px;
+    align-items: center;
 
 }
 
 .item-list-container p {
-    font-size: 30px;
+    font-size: 40px;
+    color: black;
+    margin: 100px;
+    font-family: "Jersey 20 Charted";
+
 }

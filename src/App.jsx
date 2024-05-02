@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <ComponenteNavbar />
-      <ItemListContainer />
+      <ItemListContainer greeting='Bienvenido a tu tienda de discos Online'/>
     </>
   )
 }
